@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>iAssistance</title>
+	<link rel="stylesheet" type="text/css" href="Formulario.css">
+    <script type="text/javascript" src="Formulario.js"></script>
+							
+</head>
+<body>
+        
+   <div>
+	<h1 id="titulo">Formulário</h1>
+   </div>
+		
+	<form>
+		<fieldset class="grupo">
+		    
+		<div> <h2 id="subtitulo"> Dados do Cliente: </h2> </div>
+		    
+		<div class="campo">
+		 <br>
+		 <label for="Nome">Nome:</label>	
+		 <input type="text" name="" id="nome" required
+         placeholder="Digite o nome..." required>
+	    </div>
+				 
+				 
+	    <div class="campo">
+		 <br>
+		 <label for="Telefone">Telefone:</label>	
+		 <input type="text" name="" id="telefone" 
+         placeholder="Digite o telefone..." required>
+		</div>
+
+	    <div class="campo">
+		 <br>
+	     <label for="Email">	E-mail:</label>
+		 <input type="email" name="" id="email" 
+         placeholder="Digite o e-mail..." required> 
+		</div>
+				
+	    <div class="campo"> 
+		  <br>
+		  <label for="DataReceb">Data de Recebimento:</label>
+		  <input type="date" name="" id="dataReceb" required>
+		</div>	 
+				 
+     	<div> <h2 id="subtitulo">Dados do Equipamento:</h2>  </div>
+	  	
+	  	<div class="campo">
+	  	 <br>
+		 <label for="TipoApar">	Tipo de Aparelho:</label>
+		 <input type="text" name="" id="tipoAparelho" 
+         placeholder="Digite o tipo de aparelho..." required>
+		</div>
+			
+		<div class="campo">
+		 <br>
+   	     <label for="Marca">	Marca:</label>
+		 <input type="text" name="" id="marca" 
+         placeholder="Digite a marca..." required>
+	   </div>
+				  
+	   <div class="campo">
+		 <br>
+		 <label for="Modelo">Modelo:</label>
+		 <input type="text" name="" id="modelo" 
+         placeholder="Digite o modelo..." required>
+	    </div>
+				
+		<div class="campo">
+		 <br> 
+		 <label for="CodigoS">Código de Série:</label>
+		 <input type="text" name="" id="codigoS" 
+         placeholder="Digite o código de série..." required>
+		</div>
+				 
+				
+		<div><h2 id="subtitulo">Descrição:</h2></div>
+		
+		<div class="campo">
+		 <br>
+		 <textarea name="" id="desc" cols="30" rows="10" required></textarea>
+		</div>	
+	 	
+
+	    <div><h2 id="subtitulo">Problema Relatado:</h2></div>
+		
+		<div class="campo">
+		 <br>
+		 <textarea name="" id="prob" cols="30" rows="10" required></textarea>		
+		</div>	
+			
+
+	    <div><h2 id="subtitulo">Diagnóstico do Técnico:</h2></div>
+	
+	   <div class="campo">
+	     <br>
+		 <textarea name="" id="diagTec" cols="30" rows="10" required></textarea>
+ 	   </div>
+				
+		
+	   <div><h2 id="subtitulo">Solução do Problema:</h2></div>
+		
+	   <div class="campo">
+		 <br>
+		 <textarea name="" id="solProb" cols="30" rows="10" required></textarea>		<br>
+	   </div>
+				
+	   <div class="campo">
+		 <br>
+		 <label for="DataEntrega">Data de Entrega:</label>	
+	     <input type="date" name="" id="dataEntrega" required> 
+	   </div>
+		
+	   <div class="campo">
+		 <button class="botao" onclick="javascript: Formulario();">Enviar</button>
+	   </div>
+		
+		</fieldset>	
+	</form>
+		
+</body>
+</html>
